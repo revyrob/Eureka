@@ -1,6 +1,9 @@
 {
   "name": "eureka",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  },
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
