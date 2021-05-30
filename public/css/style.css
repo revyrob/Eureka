@@ -155,3 +155,12 @@ a {
 .text-center {
     background-color: whitesmoke;
 }
+.gap {
+    height: 75px;
+}
+#logo {
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+    color: #E35799;
+    text-align: center;
+}
