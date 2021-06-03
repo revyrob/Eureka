@@ -1,11 +1,12 @@
-const express = require('express');
+import express from 'express';
+import http from 'http';
+import { Server }  from 'socket.io';
+
 const app = express();
-const http = require('http');
 const server = http.createServer(app);
-const { Server } = require("socket.io");
 const io = new Server(server);
 
-
+import {AppInfo} from './routes/index.js';
 
 //needed don't touch
 app.set('view engine', 'ejs')
@@ -18,6 +19,8 @@ app.use(express.static('views'))
 app.get('/', (req, res) => {
     res.render('index')
 })
+
+app.use('/', AppInfo);
 
 app.get('/quickchat', (req, res) => {
     res.render('quickchat')
