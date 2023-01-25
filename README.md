@@ -11,8 +11,9 @@ Web Application for Mental Health Project
   <li>EJS</li>
 </ul>
 
-<h2>Live Version</h2>
-URL: <a href="">Eureka</a>
+<h2>Images</h2>
+![image 10](https://user-images.githubusercontent.com/66695865/214663767-ac36b1fa-6011-43d0-8845-e76f4735d377.png)
+
 
 <h3>Author</h3>
 <ul>
