@@ -1,13 +1,18 @@
-const express = require('express');
+import express from 'express';
+import http from 'http';
+import { Server }  from 'socket.io';
+
 const app = express();
+<<<<<<< HEAD:index.js
 const path = require('path')
 const http = require('http');
+=======
+>>>>>>> 1f7341e0942ae79b1f4b0095e4fee9cd4bb15aac:app.js
 const server = http.createServer(app);
-const { Server } = require("socket.io");
 const io = new Server(server);
 const PORT = process.env.PORT || 3000
 
-
+import {AppInfo} from './routes/index.js';
 
 //needed don't touch
 app.set('view engine', 'ejs')
@@ -20,6 +25,8 @@ app.set('views', path.join(__dirname, 'views'))
 app.get('/', (req, res) => {
     res.render('index')
 })
+
+app.use('/', AppInfo);
 
 app.get('/quickchat', (req, res) => {
     res.render('quickchat')
