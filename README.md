@@ -1,6 +1,6 @@
 # 🕊️ Eureka
 Web Application for Mental Health Project built with the Hackathon HackOn 2.0
-Built the frontend with a framework and tools I hadn't used before.
+Built the frontend with a framework and tools I hadn't used before.  
 
 ## 👩‍💻 Built with
 <ul>
@@ -13,6 +13,7 @@ Built the frontend with a framework and tools I hadn't used before.
 
 ## 📷 Images
 ![euruka](https://user-images.githubusercontent.com/66695865/214664328-68b78e1b-0eff-478f-9750-084faa408c14.png)
+![localhost_3000 - Google Chrome 2023-03-20 20-56-51](https://user-images.githubusercontent.com/66695865/226514401-2ec612aa-4678-4ef6-a47c-04c9e014fb52.gif)
 
 ## 🛠️ Installation Steps:
 1. To start using this app you first need to clone the repository:
@@ -27,6 +28,12 @@ Built the frontend with a framework and tools I hadn't used before.
 
     npm start
     
+## 🔮 Future Plans
+<ul>
+<li>Build Backend</li>
+<li>Build Login</li>
+</ul>
+
 ## Author
 <ul>
   <li>Kayle Robson: <a href="https://github.com/revyrob">revyrob</a></li>
